@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.margin-global{
+    margin-left: 8%;
+}
+
+.icono {
+    width: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+p {
+    width: 100%;
+}
+
+span{
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+}
+
+.padding-5{
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+}
+
+.primerasecc{
+    background: url("imgs/mikail-mcverry-GSL3IuuwJv8-unsplash\ 1.png") no-repeat ;
+    background-size: 100%;
+    height: 100%;
+}
+
+
+#Buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 30%;
+    border: transparent;
+    border: solid 1px rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+}
+
+.posicion-derecha{
+    display: flex;
+    justify-content: end;
+}
+
+.buscador{
+    margin-right: 10%;
+    margin-bottom: 30%;
+}
+
+.propiedades{
+    background: no-repeat;
+    background-size: 24px;
+    width: 25%;
+    border: transparent;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    color: #FFFFFF;
+    margin-bottom: 10%;
+}
+
+.Real-Estate{
+    font-size: 180%;
+    margin-top: 0%;
+}
+
+.derecha10{
+    margin-right: 8%;
+}
