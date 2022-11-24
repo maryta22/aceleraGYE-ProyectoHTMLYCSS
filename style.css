@@ -56,8 +56,11 @@ span{
     justify-content: end;
 }
 
-.buscador{
+.mr-10{
     margin-right: 10%;
+}
+
+.buscador{
     margin-bottom: 30%;
 }
 
@@ -74,11 +77,29 @@ span{
     margin-bottom: 10%;
 }
 
-.Real-Estate{
-    font-size: 180%;
-    margin-top: 0%;
-}
 
 .derecha10{
     margin-right: 8%;
+}
+
+.segundasecc{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.title{
+    font-size: 200%;
+    margin-top: 0%;
+}
+
+.propiedadesnegro{
+    background-size: 24px;
+    width: 25%;
+    border: transparent;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    color: #000000;
+    margin-bottom: 10%;
 }
