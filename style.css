@@ -18,13 +18,17 @@ body{
     flex-grow: 1;
 }
 
-p {
+.width-100 {
     width: 100%;
 }
 
 span{
     padding-right: 0.5%;
     padding-left: 0.5%;
+}
+
+p{
+    margin: 2.5%;
 }
 
 .padding-5{
@@ -54,6 +58,16 @@ span{
 .posicion-derecha{
     display: flex;
     justify-content: end;
+}
+
+.posicion-centro{
+    display: flex;
+    justify-content: center;
+}
+
+.fila-centro{
+    display: flex;
+    align-items: center;
 }
 
 .mr-10{
@@ -93,13 +107,23 @@ span{
 }
 
 .propiedadesnegro{
+    background: no-repeat;
     background-size: 24px;
-    width: 25%;
     border: transparent;
     border: solid 1px rgb(0, 0, 0);
     border-radius: 30px;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 20px;
     outline: none;
     color: #000000;
     margin-bottom: 10%;
 }
+
+.propiedadesnegro p {
+    width: 0%;
+}
+
+.flecha{
+    width: 5%;
+    height: 5%;
+}
+
