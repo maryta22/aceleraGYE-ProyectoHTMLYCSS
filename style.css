@@ -167,14 +167,12 @@ img {
 }
 
 main{
-    margin: 6% 0;
+    margin: 6.4% 0;
 }
 
 #seccion-imagenes{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: stretch;
-    
 }
 
 #imagenes{
@@ -199,7 +197,7 @@ main{
 
 #imagen1{
     background-image: url("/images/scott-lorsch-Cqvdb3bvmCY-unsplash\ 1.png");
-    width: 5.5vw;
+    width: 8.5vw;
     min-width: 50px;
 }
 
@@ -215,7 +213,9 @@ main{
 
 
 #titulos{
-
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin-right: 5vw;
 }
 
