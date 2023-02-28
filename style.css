@@ -17,7 +17,7 @@ header{
 #seccion-superior {
     display: grid;
     grid-template-columns: 1fr auto auto auto;
-    padding: 1% 1% 1% 1%;
+    padding: 0.5% 0.5% 0.5% 0.5%;
     background-color: rgb(0 0 0 / 40%);
     align-items: center;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
@@ -68,6 +68,8 @@ img {
     column-gap: 5px;
     margin-right: 30px;
     padding-top: 1%;
+    padding-right: 2vw;
+    border-right: 1.5px solid rgba(255, 255, 255, 0.5);
 }
 
 .escoger-lenguaje {
@@ -155,6 +157,86 @@ img {
     text-decoration: none;
 }
 
+#menu-acordeon{
+    margin-right: 20px;
+}
+
+#acordeon{
+    margin: 0;
+    width: 5vw;
+}
+
 main{
-    margin: 5% 0;
+    margin: 6% 0;
+}
+
+#seccion-imagenes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    
+}
+
+#imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.imagenes-en-linea{
+    flex-shrink: 0;
+    width: 20vw;
+    min-width: 250px;
+    height: 25vw;
+    min-height: 385px;
+    background-size: cover;
+    background-position: end;
+    text-decoration: none;
+    
+}
+
+#imagen1{
+    background-image: url("/images/scott-lorsch-Cqvdb3bvmCY-unsplash\ 1.png");
+    width: 5.5vw;
+    min-width: 50px;
+}
+
+#imagen2{
+    background-image: url("/images/derek-thomson-a168At_RF6A-unsplash\ 1.png");
+    margin-left: 10px;
+}
+
+#imagen3{
+    background-image: url("/images/daniel-barnes-PyFzygP2eNg-unsplash\ 1.png");
+    margin-left: 10px
+}
+
+
+#titulos{
+
+    margin-right: 5vw;
+}
+
+
+.segundo-titulo{
+    font-size: 5vw;
+}
+
+.texto-galeria{
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #DF991B;
+}
+
+
+@media (max-width: 1000px){
+
+    .texto-galeria{
+        font-size: 24px;
+    }
+
 }
